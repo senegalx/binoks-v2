@@ -50,7 +50,7 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
   <section class="section bg-theme-light">
     <div class="container">
       <div class="text-center">
-        <h2>{markdownify(feature!.title)}</h2>
+        <h2 class="text-white">{markdownify(feature!.title)}</h2>
       </div>
       <div class="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
         {
@@ -124,8 +124,8 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
               <div
                 class={`service-content mt-5 md:mt-0 ${!isOdd && "md:order-1"}`}
               >
-                <h2 class="font-bold leading-[40px]">{service?.title}</h2>
-                <p class="mt-4 mb-2">{service?.content}</p>
+                <h2 class={`font-bold leading-[40px] ${service?.color}`}>{service?.title}</h2>
+                <p class={`mt-4 mb-2 ${service?.color}`}>{service?.content}</p>
                 {service?.button?.enable && (
                   <a
                     href={service?.button.link}
