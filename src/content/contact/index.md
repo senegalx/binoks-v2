@@ -1,9 +1,9 @@
 ---
-title: "Contact Us"
+title: "Contactez-nous"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Pourquoi devriez-vous nous contacter !
+  description: Nous sommes là pour répondre à vos besoins éducatifs. Contactez-nous dès aujourd'hui et découvrez comment BINOKS peut vous aider.
   contacts: 
     - "phone: +88 125 256 452"
     - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"

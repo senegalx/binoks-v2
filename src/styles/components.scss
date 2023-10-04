@@ -92,8 +92,8 @@
   }
 }
 
-//faq
-.faq {
+//fonctionnalite
+.fonctionnalite {
   &-head {
     &::before {
       @apply absolute -left-8 top-1 h-6 w-6 bg-[length:24px] content-[''];

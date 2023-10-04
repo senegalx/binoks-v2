@@ -1,57 +1,57 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Accueil",
       "url": "/"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
+      "name": "À propos",
+      "url": "/a-propos"
     },
     {
-      "name": "Pricing",
+      "name": "Services",
+      "url": "/services"
+    },
+    {
+      "name": "Fonctionnalités",
+      "url": "/fonctionnalites"
+    },
+    {
+      "name": "Prix",
       "url": "/pricing"
     },
     {
       "name": "Contact",
       "url": "/contact"
-    },
-    {
-      "name": "FAQ",
-      "url": "/faq"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
     }
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "Binoks",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "À propos",
+          "url": "/a-propos"
         },
         {
-          "text": "Quick Start",
-          "url": "#"
+          "text": "Contact",
+          "url": "/contact"
         }
       ]
     },
     {
-      "name": "Product",
+      "name": "Plateforme",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
+          "text": "Services",
+          "url": "/services"
         },
         {
-          "text": "Platform",
-          "url": "#"
+          "text": "Fonctionnalités",
+          "url": "/fonctionnalites"
         },
         {
-          "text": "Pricing",
+          "text": "Prix",
           "url": "/pricing"
         }
       ]
@@ -61,14 +61,14 @@
       "menu": [
         {
           "text": "FAQ",
-          "url": "/faq"
+          "url": "/fonctionnalite"
         },
         {
-          "text": "Privacy Policy",
+          "text": "Politique de confidentialité",
           "url": "/privacy-policy"
         },
         {
-          "text": "Terms & Conditions",
+          "text": "Termes et conditions",
           "url": "/terms-conditions"
         }
       ]

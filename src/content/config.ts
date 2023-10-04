@@ -86,13 +86,13 @@ const contact_page = defineCollection({
   })
 })
 
-//faq page schema
-const faq_page = defineCollection({
+//Fonctionnalites page schema
+const Fonctionnalites_page = defineCollection({
   schema: z.object({
     title: z.string().optional(),
     description: z.string().optional(),
     draft: z.boolean().optional(),
-    faqs: z.array(z.object({
+    Fonctionnalites: z.array(z.object({
       title: z.string(),
       answer: z.string(),
     })).optional()
@@ -137,7 +137,7 @@ export interface PageData {
   pages: string,
   // homePage: string,
   // contact: string,
-  // faq: string,
+  // fonctionnalites: string,
   // pricing: string
 }
 
@@ -148,6 +148,6 @@ export const collections = {
   pages: pagesCollection,
   // homepage: homepage,
   // contact: contact_page,
-  // faq: faq_page,
+  // fonctionnalites: fonctionnalites_page,
   // pricing: pricing_page
 };

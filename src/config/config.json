@@ -20,15 +20,15 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Get Started",
+    "label": "Découvrez BINOKS",
     "link": "/contact"
   },
 
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
-    "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
+    "footer_content": "Révolutionnez l'Éducation",
+    "copyright": "[Binoks](https://themefisher.com/)"
   },
 
   "metadata": {
