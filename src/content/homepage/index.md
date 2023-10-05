@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Révolutionnez l'Éducation
+  title: Une gestion ergonomique de l'éducation
   content: Avec, une Solution Intelligente pour la Gestion Scolaire, au Service de l'Excellence Éducative
   image: /images/banner-art.png
   button:
@@ -10,23 +10,23 @@ banner:
 
 # feature
 feature: 
-  title: BINOKS, des Fonctionnalités Éducatives Inégalée
+  title: BINOKS, des fonctionnalités adaptées aux besoins des établissements scolaires.
   features:
   - name: "Centralisez la Gestion Scolaire"
     icon: "/images/code.svg"
-    content: "Simplifiez l'administration de votre établissement en un seul endroit."
-  - name: "Connectez-vous en Permanence"
+    content: "Simplifiez l'administration de votre établissement en centralisant la gestion sur une seule plateforme."
+  - name: "Gardez le contact en permanence avec vos acteurs clés."
     icon: "/images/oop.svg"
     content: "Facilitez la communication entre l'école, les enseignants, les élèves et les parents."
-  - name: "Un Suivi Scolaire sur Mesure"
+  - name: "Un suivi scolaire en temps réel"
     icon: "/images/user-clock.svg"
     content: "Accédez aux données détaillées sur la performance académique de chaque élève."
   - name: "Gérez Vos Finances en Toute Simplicité"
     icon: "/images/love.svg"
     content: "Contrôlez les paiements et communiquez facilement avec les parents pour le recouvrement."
-  - name: "Emplois du Temps à Jour"
+  - name: "Une visibilité 360° pour les parents sur l'activité scolaire de leurs enfants"
     icon: "/images/speedometer.svg"
-    content: "Planifiez, gérez et partagez les emplois du temps avec élèves et parents en temps réel."
+    content: "Avec un accés facile à toutes leurs informations scolaires depuis Ordinateurs, tablettes ou Smartphones."
   - name: "L'Éducation à l'Ère Numérique"
     icon: "/images/cloud.svg"
     content: "Offrez aux élèves des outils intuitifs pour suivre leurs cours et devoirs en temps réel."
