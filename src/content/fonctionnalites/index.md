@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalités
+title: Nos modules
 description: Notre solution offre un large éventail de modules permettant d’ergonomiser la gestion de l’administration scolaire de nos clients et en les dotant d’outils digne des dernières avancées technologiques du secteur de l’éducation les rendant ainsi plus productifs et plus attractifs sur un marché de plus en plus compétitif et dynamique.
 draft: false
 fonctionnalites:

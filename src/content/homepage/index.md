@@ -1,10 +1,10 @@
 ---
 banner:
   title: Une gestion ergonomique de l'éducation
-  content: Avec, une Solution Intelligente pour la Gestion Scolaire, au Service de l'Excellence Éducative
+  content: Avec, une Solution Intelligente pour la Gestion Scolaire, au Service de l'Excellence.
   image: /images/banner-art.png
   button:
-    label: "Contact Us"
+    label: "Contactez-nous"
     link: "/contact"
     enable: true
 
@@ -44,7 +44,7 @@ services:
       label: Check it out
       link: /services
 
-  - title: "Une Connexion Complète pour les Parents d'Élèves"
+  - title: "Une visibilité à 360º pour les Parents d'Élèves"
     color: "text-white"
     content: "Grâce à BINOKS, les parents d'élèves ont accès à une visibilité totale sur la carrière scolaire de leurs enfants en quelques clics. Consultez les notes, les emplois du temps, les activités de l'école, les examens à venir, les devoirs assignés, et bien plus encore. Notre application accessible sur tous les appareils offre une expérience plus détaillée, tout en simplifiant la vie des parents."
     images: 
@@ -54,7 +54,7 @@ services:
       label: Check it out
       link: /services
   
-  - title: "L'Éducation à Portée de Main pour les Élèves"
+  - title: "Un accompagnement continu pour les Élèves"
     content: "Avec BINOKS, les élèves bénéficient d'un soutien éducatif à l'ère du numérique. Notre interface simple et intuitive leur permet d'accéder aux dernières informations sur leurs cours, leurs emplois du temps, les devoirs assignés, les examens et bien d'autres éléments en temps réel. Offrez à vos élèves une expérience éducative moderne et adaptée à leur époque."
     images:
       - "/images/service-slide-1.png"
@@ -78,6 +78,6 @@ call_to_action:
   image: '/images/cta.png'
   button:
     enable: true
-    label: "Contact Us"
+    label: "Contactez-nous"
     link: "/contact"
 ---
