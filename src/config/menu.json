@@ -5,7 +5,7 @@
       "url": "/"
     },
     {
-      "name": "À propos Binoks",
+      "name": "Binoks",
       "url": "/a-propos"
     },
     {
@@ -13,11 +13,11 @@
       "url": "/services"
     },
     {
-      "name": "Nos Modules",
+      "name": "Modules",
       "url": "/fonctionnalites"
     },
     {
-      "name": "Nos Tarifs",
+      "name": "Tarification",
       "url": "/pricing"
     },
     {
@@ -30,7 +30,7 @@
       "name": "Binoks",
       "menu": [
         {
-          "text": "À propos",
+          "text": "À propos de nous",
           "url": "/a-propos"
         },
         {
@@ -43,7 +43,7 @@
       "name": "Plateforme",
       "menu": [
         {
-          "text": "Services",
+          "text": "Nos Services",
           "url": "/services"
         },
         {
@@ -51,7 +51,7 @@
           "url": "/fonctionnalites"
         },
         {
-          "text": "Tarifs",
+          "text": "Tarification",
           "url": "/pricing"
         }
       ]
