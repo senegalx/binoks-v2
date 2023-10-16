@@ -1,0 +1,52 @@
+---
+import Base from "@layouts/Base.astro";
+import { getEntryBySlug } from "astro:content";
+
+const entry = await getEntryBySlug("a-propos", "index");
+const { title, mission, valeur } = entry.data;
+
+---
+
+<Base title={title}>
+  <section class="section">
+    <div class="container">
+      <h1 class="text-center font-normal">{title}</h1>
+      {
+        mission?.content && (
+            <div>
+                <p class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">{mission.title}</p>
+                <p class="mt-6 text-lg leading-8">{mission.content}</p>    
+            </div>
+        )
+      }
+      <div class="overflow-hidden bg-white py-14 sm:py-12">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div class="lg:pr-8 lg:pt-4">
+            <div class="lg:max-w-lg">
+              <p class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">{valeur.title}</p>
+              <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                {valeur.valeurs.map((valeur: any) => (
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      {valeur.name}
+                    </dt>{' '}
+                    <dd class="inline">{valeur.content}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
+          <img
+            src="/images/damir-kopezhanov-nC6CyrVBtkU-unsplash.jpg"
+            alt="Product screenshot"
+            class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+            width={2432}
+            height={1442}
+          />
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+</Base>
