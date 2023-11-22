@@ -14,11 +14,11 @@
     },
     {
       "name": "Modules",
-      "url": "/fonctionnalites"
+      "url": "/modules"
     },
     {
       "name": "Tarification",
-      "url": "/pricing"
+      "url": "/tarifs"
     },
     {
       "name": "Contact",
@@ -48,11 +48,11 @@
         },
         {
           "text": "Modules",
-          "url": "/fonctionnalites"
+          "url": "/modules"
         },
         {
           "text": "Tarification",
-          "url": "/pricing"
+          "url": "/tarifs"
         }
       ]
     },
