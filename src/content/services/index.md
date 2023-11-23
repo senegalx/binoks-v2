@@ -15,7 +15,7 @@ benefice:
 
 ### Pour les élèves
 
-#### Un soutien éducatif à l’ère du Digital !
+#### Un soutien éducatif à l’ère du Digital
 
 Offrez une meilleure expérience à vos élèves grâce un outil simple et en adéquation avec leur époque pour les aider dans leur carrière scolaire.
 Vos élèves et étudiants qui sont déjà familiers avec les applications ont la possibilité sur une interface simple, intuitive et normée d’avoir les dernières informations sur leurs cours, emploi du temps devoirs assignés, examens et autres en temps réel.
