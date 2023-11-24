@@ -3,7 +3,7 @@ title: "À propos de BINOKS"
 draft: false
 mission:
   title: Notre mission
-  image: "/images/damir-kopezhanov-nC6CyrVBtkU-unsplash.jpg"
+  image: "/images/service-slide-7.jpg"
   content: A BINOKS nous mettons à contribution la technologie pour permettre aux établissements scolaires une gestion plus ergonomique de leur administration et une meilleure expérience a leurs clients. Les dernières technologies applicatives ont permis de révolutionner positivement plusieurs secteurs d’activités et chez BINOKS nous faisons en sorte que l’éducation ne soit pas en reste. Notre ambition est de rendre ces innovations accessibles à tous les établissements scolaires quelle que soient leurs tailles dans le but de leur permettre d’être plus productifs et d’obtenir de meilleurs résultats.
 
 valeur:
