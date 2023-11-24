@@ -13,22 +13,22 @@ feature:
   title: BINOKS, des fonctionnalités adaptées aux besoins des établissements scolaires.
   features:
   - name: "Centralisez la Gestion Scolaire"
-    icon: "/images/code.svg"
+    icon: "/images/gestion.svg"
     content: "Simplifiez l'administration de votre établissement en centralisant la gestion sur une seule plateforme."
   - name: "Gardez le contact en permanence avec vos acteurs clés."
-    icon: "/images/oop.svg"
+    icon: "/images/contact.svg"
     content: "Facilitez la communication entre l'école, les enseignants, les élèves et les parents."
   - name: "Un suivi scolaire en temps réel"
     icon: "/images/user-clock.svg"
     content: "Accédez aux données détaillées sur la performance académique de chaque élève."
   - name: "Gérez Vos Finances en Toute Simplicité"
-    icon: "/images/love.svg"
+    icon: "/images/finance.svg"
     content: "Contrôlez les paiements et communiquez facilement avec les parents pour le recouvrement."
   - name: "Une visibilité 360° pour les parents sur l'activité scolaire de leurs enfants"
-    icon: "/images/speedometer.svg"
+    icon: "/images/360.svg"
     content: "Avec un accés facile à toutes leurs informations scolaires depuis Ordinateurs, tablettes ou Smartphones."
   - name: "L'Éducation à l'Ère Numérique"
-    icon: "/images/cloud.svg"
+    icon: "/images/digital.svg"
     content: "Offrez aux élèves des outils intuitifs pour suivre leurs cours et devoirs en temps réel."
 
 # services
@@ -36,9 +36,7 @@ services:
   - title: "Simplification Administrative pour Écoles et Enseignants"
     content: "BINOKS réduit la charge de travail de l'administration en centralisant toutes les données et les outils nécessaires dans une solution ergonomique. Les enseignants bénéficient d'une gestion plus fluide de leurs tâches, de la notation des élèves à la planification des devoirs et des examens, tout en ayant accès à des informations cruciales en temps réel."
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/service-slide-4.png"
     button:
       enable: true
       label: Check it out
@@ -57,7 +55,6 @@ services:
   - title: "Un accompagnement continu pour les Élèves"
     content: "Avec BINOKS, les élèves bénéficient d'un soutien éducatif à l'ère du numérique. Notre interface simple et intuitive leur permet d'accéder aux dernières informations sur leurs cours, leurs emplois du temps, les devoirs assignés, les examens et bien d'autres éléments en temps réel. Offrez à vos élèves une expérience éducative moderne et adaptée à leur époque."
     images:
-      - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
       - "/images/service-slide-3.png"
     button:
@@ -68,7 +65,7 @@ services:
 # workflow
 workflow: 
   title: "BINOKS : Le Meilleur Suivi pour une réussite Scolaire"
-  image: "/images/banner.png"
+  image: "/images/banner.jpg"
   description: ""
 
 # call_to_action
