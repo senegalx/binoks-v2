@@ -23,41 +23,123 @@ collections: # A list of collections the CMS should be able to edit
                 {label: "Titre", name: "title", widget: "string"},
                 {label: "Contenu", name: "content", widget: "text"},
                 {label: "Image", name: "image", widget: "image"},
-                {label: "Label du bouton", name: "button.label", widget: "string"},
-                {label: "Lien du bouton", name: "button.link", widget: "string"},
-                {label: "Activation du bouton", name: "button.enable", widget: "boolean"},
+                {label: "Bouton", name: "button", widget: "object", collapsed: true,
+                fields: [
+                  {label: "Label", name: "label", widget: "string"},
+                  {label: "Lien", name: "link", widget: "string"},
+                  {label: "Activation", name: "enable", widget: "boolean"}]}
               ]
             }
-          # - {label: "Titre de la section 'Fonctionnalités'", name: "feature.title", widget: "string"}
-          # - {label: "Fonctionnalités", name: "feature.features", widget: "list", fields: [
-          #     {label: "Nom de la fonctionnalité", name: "name", widget: "string"},
-          #     {label: "Icône de la fonctionnalité", name: "icon", widget: "image"},
-          #     {label: "Contenu de la fonctionnalité", name: "content", widget: "text"}
-          #   ]}
-          # - {label: "Titre de la section 'Services'", name: "services.title", widget: "string"}
-          # - {label: "Services", name: "services.services", widget: "list", fields: [
-          #     {label: "Titre du service", name: "title", widget: "string"},
-          #     {label: "Couleur du texte", name: "color", widget: "string"},
-          #     {label: "Contenu du service", name: "content", widget: "text"},
-          #     {label: "Images du service", name: "images", widget: "list", field: {widget: "image"}},
-          #     {label: "Bouton du service", name: "button", widget: "object", fields: [
-          #       {label: "Activation du bouton", name: "enable", widget: "boolean"},
-          #       {label: "Label du bouton", name: "label", widget: "string"},
-          #       {label: "Lien du bouton", name: "link", widget: "string"}
-          #     ]}
-          #   ]}
-          # - {label: "Titre de la section 'Workflow'", name: "workflow.title", widget: "string"}
-          # - {label: "Image du workflow", name: "workflow.image", widget: "image"}
-          # - {label: "Description du workflow", name: "workflow.description", widget: "text"}
-          # - {label: "Titre de l'appel à l'action", name: "call_to_action.title", widget: "string"}
-          # - {label: "Contenu de l'appel à l'action", name: "call_to_action.content", widget: "text"}
-          # - {label: "Image de l'appel à l'action", name: "call_to_action.image", widget: "image"}
-          # - {label: "Bouton de l'appel à l'action", name: "call_to_action.button", widget: "object", fields: [
-          #     {label: "Activation du bouton", name: "enable", widget: "boolean"},
-          #     {label: "Label du bouton", name: "label", widget: "string"},
-          #     {label: "Lien du bouton", name: "link", widget: "string"}
-          #   ]}
-      - label: contact
+          - {label: "Fonctionnalités", name: "feature", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Fonctionnalités", name: "features", widget: "list", fields: [
+                  {label: "Nom", name: "name", widget: "string"},
+                  {label: "Icône", name: "icon", widget: "image"},
+                  {label: "Contenu", name: "content", widget: "text"}]}]
+            }
+          - {label: "Services", name: "services", widget: "list", fields: [
+                  {label: "Titre", name: "title", widget: "string"},
+                  {label: "Couleur", name: "color", widget: "string"},
+                  {label: "Contenu", name: "content", widget: "text"},
+                  {label: "Images", name: "images", widget: "list", field: {widget: "image", name: image}},
+                  {label: "Bouton", name: "button", widget: "object", fields: [
+                    {label: "Activation", name: "enable", widget: "boolean"},
+                    {label: "Label", name: "label", widget: "string"},
+                    {label: "Lien", name: "link", widget: "string"}
+                  ]}]
+            }
+          - {label: "Workflow", name: "workflow", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Image", name: "image", widget: "image"},
+                {label: "Description", name: "description", widget: "text"}]
+            }
+          - {label: "Appel à l'action", name: "call_to_action", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Contenu", name: "content", widget: "text"},
+                {label: "Image", name: "image", widget: "image"},
+                {label: "Bouton", name: "button", widget: "object", fields: [
+                  {label: "Activation", name: "enable", widget: "boolean"},
+                  {label: "Label", name: "label", widget: "string"},
+                  {label: "Lien", name: "link", widget: "string"}
+                ]}]
+            }
+      - label: À propos
+        name: apropos
+        file: /src/content/a-propos/index.md
+        fields:
+          - { label: "Titre", name: "title", widget: "string" }
+          - { label: "Brouillon", name: "draft", widget: "boolean" }
+          - {label: "Mission", name: "mission", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Image", name: "image", widget: "image"},
+                {label: "Contenu", name: "content", widget: "text"}]
+            }
+          - {label: "Valeur", name: "valeur", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Valeurs", name: "valeurs", widget: "list", 
+                  fields: [
+                    {label: "Nom", name: "name", widget: "string"},
+                    {label: "Icône", name: "icon", widget: "image"},
+                    {label: "Contenu", name: "content", widget: "text"}]}]
+            }
+      - label: Services
+        name: services
+        file: /src/content/services/index.md
+        fields:
+          - { label: "Titre", name: "title", widget: "string" }
+          - { name: "description", label: "Description", widget: "text" }
+          - { label: "Brouillon", name: "draft", widget: "boolean" }
+          - { label: "Bénéfices", name: "benefice", widget: "object", fields: [
+              { label: "Titre", name: "titre", widget: "string" },
+              { label: "Bénéfices", name: "benefices", widget: "list", fields: [
+                  { label: "Titre", name: "titre", widget: "string" },
+                  {label: "Contenu", name: "content", widget: "text"}]}]}
+          - { name: "body", label: "Contenu", widget: "markdown" }
+      - label: Modules
+        name: modules
+        file: /src/content/fonctionnalites/index.md
+        fields:
+          - { label: "Titre", name: "title", widget: "string" }
+          - { name: "description", label: "Description", widget: "text" }
+          - { label: "Brouillon", name: "draft", widget: "boolean" }
+          - {label: "Fonctionnalités", name: "fonctionnalites", widget: "list", 
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Contenu", name: "answer", widget: "text"}]}
+      - label: Tarifs
+        name: tarifs
+        file: /src/content/pricing/index.md
+        fields:
+          - { label: "Titre", name: "title", widget: "string" }
+          - { name: "description", label: "Description", widget: "text" }
+          - { label: "Brouillon", name: "draft", widget: "boolean" }
+          - {label: "Plans", name: "plans", widget: "list", 
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Sous-titre", name: "subtitle", widget: "string"},
+                {label: "Prix", name: "price", widget: "number"},
+                {label: "Type", name: "type", widget: "string"},
+                {label: "Fonctionnalités", name: "features", widget: "list", summary: "{{fields.feature}}", field: {name: "feature", widget: "string"}},
+                {label: "Bouton", name: "button", widget: "object", fields: [
+                  {label: "Label", name: "label", widget: "string"},
+                  {label: "Lien", name: "link", widget: "string"}]}]}
+          - {label: "Appel à l'action", name: "call_to_action", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Contenu", name: "content", widget: "text"},
+                {label: "Image", name: "image", widget: "image"},
+                {label: "Bouton", name: "button", widget: "object", fields: [
+                  {label: "Activation", name: "enable", widget: "boolean"},
+                  {label: "Label", name: "label", widget: "string"},
+                  {label: "Lien", name: "link", widget: "string"}
+                ]}]
+            }
+      - label: Contact
         name: contact
         file: /src/content/contact/index.md
         fields:
