@@ -4,7 +4,7 @@ import { Image } from "@astrojs/image/components";
 import { getEntryBySlug } from "astro:content";
 
 const entry = await getEntryBySlug("services", "index");
-const { title, description, benefice } = entry.data;
+const { title, description, image, benefice, gallery } = entry.data;
 const { Content } = await entry.render();
 ---
 
@@ -18,7 +18,7 @@ const { Content } = await entry.render();
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">{description}</p> 
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
+                <img src={image} alt="mockup">
             </div>                
         </div>
     </section>
@@ -90,13 +90,13 @@ const { Content } = await entry.render();
     <section class="bg-gray-50 dark:bg-gray-800">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div class="max-w-screen-md mb-8 lg:mb-16">
-                <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">{benefice.titre}</h2>
+                <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">{benefice?.titre}</h2>
             </div>
             <div class="space-y-8 md:grid md:grid-cols-1 lg:grid-cols-1 md:gap-12 md:space-y-0">
-                {benefice.benefices.map((benefice: any) => (
+                {benefice?.benefices?.map((benefice: any) => (
                 <div>
-                    <h3 class="mb-2 text-xl font-bold dark:text-white">{benefice.titre}</h3>
-                    <p class="text-gray-500 dark:text-gray-400">{benefice.content}</p>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">{benefice?.titre}</h3>
+                    <p class="text-gray-500 dark:text-gray-400">{benefice?.content}</p>
                 </div>
                 ))}
             </div>
@@ -109,8 +109,8 @@ const { Content } = await entry.render();
                 <Content/>
             </div>
             <div class="grid grid-cols-2 gap-4 mt-8">
-                <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
-                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
+                <img class="w-full rounded-lg" src={gallery[0]} alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src={gallery[1]} alt="office content 2">
             </div>
         </div>
     </section>
