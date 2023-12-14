@@ -14,7 +14,12 @@ const { title, mission, valeur } = entry.data;
       <h1 class="text-center font-normal">{title}</h1>
       {
         mission?.content && (
-            <div class="row col-12 pb-10 pt-16">
+        <div class="row col-12 pb-10 pt-16">
+          <div class="mx-auto max-w-2xl lg:text-center">
+            <h2 class="mt-2 mb-5 text-3xl font-bold tracking-tight sm:text-4xl">
+              {mission.title}
+            </h2>
+          </div>
           <div class="md:col-6">
             <Image
               class="rounded-lg"
@@ -25,9 +30,6 @@ const { title, mission, valeur } = entry.data;
             />
           </div>
           <div class="md:col-6">
-            <h2 class="h3 mb-2 mt-4">
-              {mission.title}
-            </h2>
             <p>{mission.content}</p>
           </div>
         </div>
