@@ -1,80 +1,132 @@
 ---
 banner:
   title: Une gestion ergonomique de l'éducation
-  content: Avec, une Solution Intelligente pour la Gestion Scolaire, au Service de l'Excellence.
-  image: /images/banner-art.png
+  content: Avec une application simple et intuitive permettant d'administrer votre
+    école en toute simplicité.
+  image: /images/uploads/bin01-1-.jpg
   button:
-    label: "Contactez-nous"
-    link: "/contact"
+    label: Contactez-nous
+    link: /contact
     enable: true
-
-# feature
-feature: 
-  title: BINOKS, des fonctionnalités adaptées aux besoins des établissements scolaires.
+feature:
+  title: BINOKS, des fonctionnalités adaptées aux besoins des établissements
+    scolaires.
   features:
-  - name: "Centralisez la Gestion Scolaire"
-    icon: "/images/gestion.svg"
-    content: "Simplifiez l'administration de votre établissement en centralisant la gestion sur une seule plateforme."
-  - name: "Gardez le contact en permanence avec vos acteurs clés."
-    icon: "/images/contact.svg"
-    content: "Facilitez la communication entre l'école, les enseignants, les élèves et les parents."
-  - name: "Un suivi scolaire en temps réel"
-    icon: "/images/user-clock.svg"
-    content: "Accédez aux données détaillées sur la performance académique de chaque élève."
-  - name: "Gérez Vos Finances en Toute Simplicité"
-    icon: "/images/finance.svg"
-    content: "Contrôlez les paiements et communiquez facilement avec les parents pour le recouvrement."
-  - name: "Une visibilité 360° pour les parents sur l'activité scolaire de leurs enfants"
-    icon: "/images/360.svg"
-    content: "Avec un accés facile à toutes leurs informations scolaires depuis Ordinateurs, tablettes ou Smartphones."
-  - name: "L'Éducation à l'Ère Numérique"
-    icon: "/images/digital.svg"
-    content: "Offrez aux élèves des outils intuitifs pour suivre leurs cours et devoirs en temps réel."
-
-# services
+    - name: Centralisez votre gestion scolaire
+      icon: /images/uploads/dash-on-laptop.jpg
+      content: Simplifiez l'administration de votre établissement en centralisant la
+        gestion sur une seule plateforme.
+    - name: Gardez le contact en permanence avec vos acteurs clés.
+      icon: /images/uploads/guy-on-phone-from-above.jpg
+      content: Facilitez la communication entre l'école, les enseignants, les élèves
+        et les parents.
+    - name: Un suivi quotidien
+      icon: /images/uploads/dread-guy-on-phone.jpg
+      content: Accédez aux données détaillées sur la vie scolaire de chaque élève.
+    - name: Gérez vos finances en toute simplicité
+      icon: /images/uploads/dash-on-laptop.jpg
+      content: Suivez les paiements et communiquez facilement avec les parents pour le
+        recouvrement.
+    - name: Une visibilité 360° pour les parents sur l'activité scolaire de leurs
+        enfants
+      icon: /images/uploads/dashboard-tablette.png
+      content: Avec un accès facile à toutes leurs informations scolaires depuis
+        ordinateurs, tablettes ou Smartphones.
+    - name: L'Éducation à l'ère du Numérique
+      icon: /images/uploads/fille-smartphone-img.jpg
+      content: Offrez aux élèves des outils intuitifs adaptés à leur génération pour
+        suivre leurs emplois du temps, notes et devoirs au quotidien.
 services:
-  - title: "Simplification Administrative pour Écoles et Enseignants"
-    content: "BINOKS réduit la charge de travail de l'administration en centralisant toutes les données et les outils nécessaires dans une solution ergonomique. Les enseignants bénéficient d'une gestion plus fluide de leurs tâches, de la notation des élèves à la planification des devoirs et des examens, tout en ayant accès à des informations cruciales en temps réel."
+  - title: Simplification administrative pour écoles et enseignants
+    content: BINOKS réduit la charge de travail de l'administration en centralisant
+      toutes les données scolaires sur une plateforme ergonomique. Les
+      enseignants bénéficient d'une gestion plus fluide de leurs tâches, de la
+      notation des élèves à la planification des devoirs et des examens, tout en
+      restant en contact avec l’établissement.
     images:
-      - "/images/service-slide-4.png"
+      - /images/service-slide-4.png
     button:
       enable: true
       label: Check it out
       link: /services
-
-  - title: "Une visibilité à 360º pour les Parents d'Élèves"
-    color: "text-white"
-    content: "Grâce à BINOKS, les parents d'élèves ont accès à une visibilité totale sur la carrière scolaire de leurs enfants en quelques clics. Consultez les notes, les emplois du temps, les activités de l'école, les examens à venir, les devoirs assignés, et bien plus encore. Notre application accessible sur tous les appareils offre une expérience plus détaillée, tout en simplifiant la vie des parents."
-    images: 
-      - "/images/service-slide-1.png"
-    button:
-      enable: true
-      label: Check it out
-      link: /services
-  
-  - title: "Un accompagnement continu pour les Élèves"
-    content: "Avec BINOKS, les élèves bénéficient d'un soutien éducatif à l'ère du numérique. Notre interface simple et intuitive leur permet d'accéder aux dernières informations sur leurs cours, leurs emplois du temps, les devoirs assignés, les examens et bien d'autres éléments en temps réel. Offrez à vos élèves une expérience éducative moderne et adaptée à leur époque."
+    color: Text-white
+  - title: Un accompagnement continu pour les élèves
+    content: Avec BINOKS, les élèves bénéficient d'un soutien éducatif à l'ère du
+      numérique. Notre interface simple et intuitive leur permet d'accéder aux
+      dernières informations sur leurs cours, leurs emplois du temps, les
+      devoirs assignés, les examens et bien d'autres éléments. Offrez à vos
+      élèves une expérience éducative moderne et adaptée à leur époque.
     images:
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - /images/service-slide-2.png
+      - /images/service-slide-3.png
     button:
       enable: true
       label: Check it out
       link: /services
+    color: Texte-white
+  - title: "Service de soutien scolaire sur mesure "
+    color: Texte-white
+    content: >
+      Soutien scolaire 
 
-# workflow
-workflow: 
+      Nous proposons différents packages avec selon les besoins de l’élève un volume d’heures de cours à domicile dans une ou plusieurs matières. Une évaluation est faite à la prise en charge du client et un suivi de l’évolution du niveau jusqu’à l’atteinte des objectifs fixés. 
+
+
+      Mise à niveau et PREPA examens 
+
+      Dès la prise en charge de l’élève une évaluation est faite pour déterminer son niveau et identifier ses axes d’amélioration. Une équipe expérimentée dans l’enseignement établie un programme sur mesure pour relever le niveau de l’élève. 
+
+      Nous mettons aussi en place pour les élèves en classe d’examen des programmes préparatoires leur permettant d’être prêts avant l’examen pour maximiser leur chance de réussir.
+
+
+      Reporting & conseil 
+
+      Nous assignons des ressources expérimentées qui se chargent de produire des rapports périodiques pour vous permettre de suivre l’évolution de votre enfant. Ces rapports incluent les rubriques suivantes : 
+
+      •	Assiduité 
+
+      •	Devoirs à faire 
+
+      •	Notes 
+
+      •	Examens et contrôles 
+
+      •	Recommandations et conseils pédagogiques
+
+      •	Etc.
+
+
+      Tutorat & Gestion administrative 
+
+      Grace à une procuration de ces derniers nous représentons les parents aux réunions parents-enseignants organisées par l’école et leur faisons des comptes rendus détaillés. 
+
+      Nous nous chargeons des démarches administratives auprès de l’école de votre enfant avec votre mandat, vous permettant de déléguer ces tâches à une organisation soucieuse de la réussite de vos enfants.
+
+
+      Coaching 
+
+      Nous ne nous limitons pas à donner des cours, nous incitons votre enfant à exceller à l’école et en général avec un coaching pour enfant mis en œuvre par un personnel formé et supervisé par un expert. 
+    images:
+      - /images/uploads/vieux-et-gamin-loupe.jpg
+    button:
+      enable: true
+      link: /services
+      label: En savoir plus
+workflow:
   title: "BINOKS : Le Meilleur Suivi pour une réussite Scolaire"
-  image: "/images/banner.jpg"
-  description: ""
-
-# call_to_action
+  image: /images/uploads/consult-resultat-sucess-fam.jpg
+  description: "Nous proposons différents packages avec selon les besoins de
+    l’élève un volume d’heures de cours à domicile dans une ou plusieurs
+    matières. Une évaluation est faite à la prise en charge du client et un
+    suivi de l’évolution du niveau jusqu’à l’atteinte des objectifs fixés. "
 call_to_action:
   title: Votre Réussite Commence Ici
-  content: Votre réussite est notre priorité absolue, et nous sommes là pour vous soutenir à chaque étape de votre parcours. Ne tardez pas, contactez BINOKS aujourd'hui et laissez-nous vous guider vers un avenir éducatif brillant.
-  image: '/images/cta.png'
+  content: Votre réussite est notre priorité absolue, et nous sommes là pour vous
+    soutenir à chaque étape de votre parcours. Ne tardez pas, contactez BINOKS
+    aujourd'hui et laissez-nous vous guider vers un avenir éducatif brillant.
+  image: /images/cta.png
   button:
     enable: true
-    label: "Contactez-nous"
-    link: "/contact"
+    label: Contactez-nous
+    link: /contact
 ---
