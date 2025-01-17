@@ -37,6 +37,18 @@ feature:
       content: Offrez aux élèves des outils intuitifs adaptés à leur génération pour
         suivre leurs emplois du temps, notes et devoirs au quotidien.
 services:
+  - title: "Soutien scolaire sur mesure "
+    color: Texte-white
+    content: Un service de suivi scolaire au-delà des cours à domicile. Avec le
+      coaching scolaire mandatez Binoks pour vous représenter auprès de l’école
+      de vos enfants et faite encadrer ces derniers par des professionnels tout
+      en restant informés.
+    images:
+      - /images/uploads/vieux-et-gamin-loupe.jpg
+    button:
+      enable: true
+      link: /services
+      label: En savoir plus
   - title: Simplification administrative pour écoles et enseignants
     content: BINOKS réduit la charge de travail de l'administration en centralisant
       toutes les données scolaires sur une plateforme ergonomique. Les
@@ -64,19 +76,6 @@ services:
       label: En savoir plus
       link: /services
     color: Texte-white
-  - title: "Service de soutien scolaire sur mesure "
-    color: Texte-white
-    content: >
-      Nous proposons différents packages avec selon les besoins de l’élève un
-      volume d’heures de cours à domicile dans une ou plusieurs matières. Une
-      évaluation est faite à la prise en charge du client et un suivi de
-      l’évolution du niveau jusqu’à l’atteinte des objectifs fixés. 
-    images:
-      - /images/uploads/vieux-et-gamin-loupe.jpg
-    button:
-      enable: true
-      link: /services
-      label: En savoir plus
 workflow:
   title: "BINOKS : Le Meilleur Suivi pour une réussite Scolaire"
   image: /images/uploads/consult-resultat-sucess-fam.jpg
