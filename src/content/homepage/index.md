@@ -41,7 +41,7 @@ services:
     color: Texte-white
     content: Un service de suivi scolaire au-delà des cours à domicile. Avec le
       coaching scolaire mandatez Binoks pour vous représenter auprès de l’école
-      de vos enfants et faite encadrer ces derniers par des professionnels tout
+      de vos enfants et faites encadrer ces derniers par des professionnels tout
       en restant informés.
     images:
       - /images/uploads/vieux-et-gamin-loupe.jpg
