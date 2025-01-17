@@ -79,10 +79,11 @@ services:
 workflow:
   title: "BINOKS : Le Meilleur Suivi pour une réussite Scolaire"
   image: /images/uploads/consult-resultat-sucess-fam.jpg
-  description: "Nous proposons différents packages avec selon les besoins de
-    l’élève un volume d’heures de cours à domicile dans une ou plusieurs
-    matières. Une évaluation est faite à la prise en charge du client et un
-    suivi de l’évolution du niveau jusqu’à l’atteinte des objectifs fixés. "
+  description: Avec BINOKS, les élèves bénéficient d'un soutien éducatif à l'ère
+    du numérique. Notre interface simple et intuitive leur permet d'accéder aux
+    dernières informations sur leurs cours, leurs emplois du temps, les devoirs
+    assignés, les examens et bien d'autres éléments. Offrez à vos élèves une
+    expérience éducative moderne et adaptée à leur époque.
 call_to_action:
   title: Votre Réussite Commence Ici
   content: Votre réussite est notre priorité absolue, et nous sommes là pour vous
