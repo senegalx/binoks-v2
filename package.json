@@ -11,7 +11,6 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.0.7",
     "@astrojs/react": "^4.1.6",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.2.1",
@@ -19,9 +18,9 @@
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
     "@types/marked": "^4.3.0",
-    "@types/react": "^18.2.6",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.3",
     "astro": "^5.1.8",
-    "astro-auto-import": "^0.3.0",
     "date-fns": "^2.30.0",
     "date-fns-tz": "^2.0.0",
     "fuse.js": "^6.6.2",
@@ -41,7 +40,7 @@
     "sass": "^1.62.1",
     "sharp": "^0.32.1",
     "swiper": "^9.3.1",
-    "tailwind-bootstrap-grid": "^5.0.1",
-    "tailwindcss": "^3.3.2"
+    "tailwind-bootstrap-grid": "^5.1.0",
+    "tailwindcss": "^3.4.17"
   }
 }
