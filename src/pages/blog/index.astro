@@ -1,5 +1,5 @@
 ---
-import { Image } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import config from "@config/config.json";
 import Base from "@layouts/Base.astro";
 import Pagination from "@layouts/components/Pagination.astro";
@@ -7,11 +7,11 @@ import Post from "@layouts/partials/Post.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
 import { sortByDate } from "@lib/utils/sortFunctions";
 import { markdownify, plainify } from "@lib/utils/textConverter";
-import { getEntryBySlug } from "astro:content";
+import { getEntry } from "astro:content";
 
 const { blog_folder, summary_length } = config.settings;
 
-const postIndex = await getEntryBySlug<any, string>(blog_folder, "index");
+const postIndex = await getEntry<any, string>(blog_folder, "index");
 const posts = await getSinglePage(blog_folder);
 const sortedPosts = sortByDate(posts);
 const totalPages = Math.ceil(posts.length / config.settings.pagination);

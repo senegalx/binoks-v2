@@ -1,9 +1,9 @@
 ---
 import Base from "@layouts/Base.astro";
 import { Image } from "@astrojs/image/components";
-import { getEntryBySlug } from "astro:content";
+import { getEntry } from "astro:content";
 
-const entry = await getEntryBySlug("services", "index");
+const entry = await getEntry("services", "index");
 const { title, description, image, benefice, gallery } = entry.data;
 const { Content } = await entry.render();
 ---
