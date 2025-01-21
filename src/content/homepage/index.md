@@ -3,7 +3,7 @@ banner:
   title: Une gestion ergonomique de l'éducation
   content: Avec une application simple et intuitive permettant d'administrer votre
     école en toute simplicité.
-  image: /images/uploads/bin01-1-.jpg
+  image: /images/banner-art.png
   button:
     label: Contactez-nous
     link: /contact
@@ -13,27 +13,27 @@ feature:
     scolaires.
   features:
     - name: Centralisez votre gestion scolaire
-      icon: /images/uploads/dash-on-laptop.jpg
+      icon: /images/gestion.svg
       content: Simplifiez l'administration de votre établissement en centralisant la
         gestion sur une seule plateforme.
     - name: Gardez le contact en permanence avec vos acteurs clés.
-      icon: /images/uploads/guy-on-phone-from-above.jpg
+      icon: /images/contact.svg
       content: Facilitez la communication entre l'école, les enseignants, les élèves
         et les parents.
     - name: Un suivi quotidien
-      icon: /images/uploads/dread-guy-on-phone.jpg
+      icon: /images/user-clock.svg
       content: Accédez aux données détaillées sur la vie scolaire de chaque élève.
     - name: Gérez vos finances en toute simplicité
-      icon: /images/uploads/dash-on-laptop.jpg
+      icon: /images/finance.svg
       content: Suivez les paiements et communiquez facilement avec les parents pour le
         recouvrement.
     - name: Une visibilité 360° pour les parents sur l'activité scolaire de leurs
         enfants
-      icon: /images/uploads/dashboard-tablette.png
+      icon: /images/360.svg
       content: Avec un accès facile à toutes leurs informations scolaires depuis
         ordinateurs, tablettes ou Smartphones.
     - name: L'Éducation à l'ère du Numérique
-      icon: /images/uploads/fille-smartphone-img.jpg
+      icon: /images/digital.svg
       content: Offrez aux élèves des outils intuitifs adaptés à leur génération pour
         suivre leurs emplois du temps, notes et devoirs au quotidien.
 services:
@@ -50,6 +50,7 @@ services:
       link: /services
       label: En savoir plus
   - title: Simplification administrative pour écoles et enseignants
+    color: "text-white"
     content: BINOKS réduit la charge de travail de l'administration en centralisant
       toutes les données scolaires sur une plateforme ergonomique. Les
       enseignants bénéficient d'une gestion plus fluide de leurs tâches, de la
@@ -61,7 +62,6 @@ services:
       enable: true
       label: En savoir plus
       link: /services
-    color: Text-white
   - title: Un accompagnement continu pour les élèves
     content: Avec BINOKS, les élèves bénéficient d'un soutien éducatif à l'ère du
       numérique. Notre interface simple et intuitive leur permet d'accéder aux
