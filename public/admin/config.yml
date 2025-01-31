@@ -166,3 +166,62 @@ collections: # A list of collections the CMS should be able to edit
       - { name: "date", label: "Date", widget: "datetime" }
       - { name: "draft", label: "Brouillon", widget: "boolean" }
       - { name: "body", label: "Contenu", widget: "markdown" }
+  - label: Configuration
+    name: config
+    editor:
+      preview: false
+    files:
+      - label: Navigation Menu
+        name: menu
+        file: /src/config/menu.json
+        fields:
+          - label: Main Menu
+            name: main
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+          - label: Footer Menu
+            name: footer
+            widget: list
+            fields:
+              - {label: Section Name, name: name, widget: string}
+              - label: Menu Items
+                name: menu
+                widget: list
+                fields:
+                  - {label: Text, name: text, widget: string}
+                  - {label: URL, name: url, widget: string}
+
+      - label: Social Links
+        name: social
+        file: /src/config/social.json
+        fields:
+          - {label: Facebook, name: facebook, widget: string, required: false}
+          - {label: Twitter, name: twitter, widget: string, required: false}
+          - {label: Instagram, name: instagram, widget: string, required: false}
+          - {label: YouTube, name: youtube, widget: string, required: false}
+          - {label: LinkedIn, name: linkedin, widget: string, required: false}
+          - {label: GitHub, name: github, widget: string, required: false}
+          - {label: GitLab, name: gitlab, widget: string, required: false}
+          - {label: Medium, name: medium, widget: string, required: false}
+          - {label: CodePen, name: codepen, widget: string, required: false}
+          - {label: BitBucket, name: bitbucket, widget: string, required: false}
+          - {label: Dribbble, name: dribbble, widget: string, required: false}
+          - {label: Behance, name: behance, widget: string, required: false}
+          - {label: Pinterest, name: pinterest, widget: string, required: false}
+          - {label: SoundCloud, name: soundcloud, widget: string, required: false}
+          - {label: Tumblr, name: tumblr, widget: string, required: false}
+          - {label: Reddit, name: reddit, widget: string, required: false}
+          - {label: VK, name: vk, widget: string, required: false}
+          - {label: WhatsApp, name: whatsapp, widget: string, required: false}
+          - {label: Snapchat, name: snapchat, widget: string, required: false}
+          - {label: Vimeo, name: vimeo, widget: string, required: false}
+          - {label: TikTok, name: tiktok, widget: string, required: false}
+          - {label: Foursquare, name: foursquare, widget: string, required: false}
+          - {label: RSS, name: rss, widget: string, required: false}
+          - {label: Email, name: email, widget: string, required: false}
+          - {label: Phone, name: phone, widget: string, required: false}
+          - {label: Address, name: address, widget: string, required: false}
+          - {label: Skype, name: skype, widget: string, required: false}
+          - {label: Website, name: website, widget: string, required: false}
