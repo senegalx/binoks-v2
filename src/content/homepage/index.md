@@ -47,10 +47,10 @@ services:
       - /images/uploads/vieux-et-gamin-loupe.jpg
     button:
       enable: true
-      link: /services
+      link: /soutien-scolaire
       label: En savoir plus
   - title: Simplification administrative pour écoles et enseignants
-    color: "text-white"
+    color: text-white
     content: BINOKS réduit la charge de travail de l'administration en centralisant
       toutes les données scolaires sur une plateforme ergonomique. Les
       enseignants bénéficient d'une gestion plus fluide de leurs tâches, de la
